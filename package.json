@@ -1,0 +1,49 @@
+{
+	"timeZone": "America/Los_Angeles",
+	"dependencies": {
+		"css": "3.0.0"
+	},
+	"exceptionLogging": "STACKDRIVER",
+	"runtimeVersion": "V8",
+	"keywords": [],
+	"name": "web",
+	"description": "",
+	"printWidth": 50,
+	"tabWidth": 2,
+	"useTabs": true,
+	"semi": true,
+	"singleQuote": false,
+	"trailingComma": "none",
+	"bracketSpacing": true,
+	"jsxBracketSameLine": false,
+	"fluid": false,
+	"infiniteLoopProtection": true,
+	"hardReloadOnChange": false,
+	"view": "browser",
+	"template": "create-react-app",
+	"compilerOptions": {
+		"outDir": "build/dist",
+		"module": "esnext",
+		"target": "es5",
+		"lib": ["es6", "dom"],
+		"sourceMap": true,
+		"allowJs": true,
+		"jsx": "react",
+		"moduleResolution": "node",
+		"rootDir": "src",
+		"forceConsistentCasingInFileNames": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"suppressImplicitAnyIndexErrors": true,
+		"noUnusedLocals": true,
+		"baseUrl": "."
+	},
+	"contributes": {
+		"markdown.markdownItPlugins": true,
+		"markdown.previewStyles": [],
+		"markdown.previewScripts": [],
+		"typescriptServerPlugins": []
+	}
+}
